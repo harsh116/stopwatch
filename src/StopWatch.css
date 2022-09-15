@@ -1,0 +1,44 @@
+.StopWatch {
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  box-shadow: 4px 4px 10px #888888;
+}
+
+.controlSection {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-right: 1px solid black;
+}
+
+.btn {
+  cursor: pointer;
+  width: 4rem;
+  margin: 0 0.5rem;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+  /* border: none; */
+}
+
+.btn:hover {
+  background-color: rgb(5, 5, 158);
+  color: white;
+}
+
+.timeSection {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 60%;
+}
+
+.time {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
